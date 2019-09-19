@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+  background: linear-gradient(90deg, #1370FB 20px, transparent 1%) center, linear-gradient(#1370FB 20px, transparent 1%) center, #3882E8;
+  background-size: 22px 22px;
+}
+.wrapper {
+    background-color: white;
+    margin: auto;
+    width: 60%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: center;
+    }
+
+
+#img-holder{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: center;
+  align-content: center;
+}
+
+#catImage {
+  width: 100%;
+  margin: auto;
+  height: auto;
+  max-width: 600px;
+  padding: 5px;
+  border: solid 1px #EFEFEF;
+}
+
+#facts{
+  align-content: center;
+  padding: 5px;
+  border: solid 1px #EFEFEF;
+}
+
+#myBtns {
+  margin: 5px;
+}
+button {
+
+}
